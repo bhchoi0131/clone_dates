@@ -5,6 +5,8 @@ const conversation = [
 ];
 
 export function HeroSection() {
+  const waitlistEndpoint = 'https://formspree.io/f/xnjlrvae';
+
   return (
     <section className="section-shell relative pt-14 sm:pt-24">
       <div className="stars absolute inset-0 -z-10" />
@@ -24,12 +26,22 @@ export function HeroSection() {
             Let your AI clone go on the date first. Compare futures, chemistry, and chaos before real feelings go live.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
-            <button className="rounded-2xl bg-gradient-to-r from-neon-pink to-neon-violet px-6 py-3 text-sm font-semibold text-white shadow-glow transition hover:brightness-110">
-              Create my clone
-            </button>
-            <button className="rounded-2xl border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-zinc-100 transition hover:border-cyan-300/50 hover:bg-cyan-300/10">
-              Watch simulation demo
-            </button>
+            <a
+              href={waitlistEndpoint}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-2xl bg-gradient-to-r from-neon-pink to-neon-violet px-6 py-3 text-center text-sm font-semibold text-white shadow-glow transition hover:brightness-110"
+            >
+              Apply to waitlist
+            </a>
+            <a
+              href={waitlistEndpoint}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-2xl border border-white/20 bg-white/5 px-6 py-3 text-center text-sm font-semibold text-zinc-100 transition hover:border-cyan-300/50 hover:bg-cyan-300/10"
+            >
+              Apply to waitlist
+            </a>
           </div>
           <p className="text-xs text-zinc-400">
             Trust layer: simulations only run when both people explicitly opt in.
