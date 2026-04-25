@@ -1,0 +1,6 @@
+/node_modules
+/.next
+/out
+.node-portable
+*.log
+.DS_Store
