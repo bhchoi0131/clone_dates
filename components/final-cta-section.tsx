@@ -9,12 +9,18 @@ export function FinalCTASection() {
             Build your clone in minutes. Simulate the spark. Share the result that breaks the group chat.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-            <button className="rounded-2xl bg-gradient-to-r from-neon-pink to-neon-violet px-6 py-3 text-sm font-semibold text-white shadow-glow transition hover:brightness-110">
-              Create your clone
-            </button>
-            <button className="rounded-2xl border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-zinc-100 transition hover:border-cyan-300/50 hover:bg-cyan-300/10">
-              Watch demo
-            </button>
+            <a
+              href="#waitlist-form"
+              className="rounded-2xl bg-gradient-to-r from-neon-pink to-neon-violet px-6 py-3 text-center text-sm font-semibold text-white shadow-glow transition hover:brightness-110"
+            >
+              Apply to waitlist
+            </a>
+            <a
+              href="#waitlist-form"
+              className="rounded-2xl border border-white/20 bg-white/5 px-6 py-3 text-center text-sm font-semibold text-zinc-100 transition hover:border-cyan-300/50 hover:bg-cyan-300/10"
+            >
+              Apply to waitlist
+            </a>
           </div>
         </div>
       </div>
