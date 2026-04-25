@@ -5,8 +5,6 @@ const conversation = [
 ];
 
 export function HeroSection() {
-  const waitlistEndpoint = 'https://formspree.io/f/xnjlrvae';
-
   return (
     <section className="section-shell relative pt-14 sm:pt-24">
       <div className="stars absolute inset-0 -z-10" />
@@ -27,17 +25,13 @@ export function HeroSection() {
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <a
-              href={waitlistEndpoint}
-              target="_blank"
-              rel="noreferrer"
+              href="#waitlist-form"
               className="rounded-2xl bg-gradient-to-r from-neon-pink to-neon-violet px-6 py-3 text-center text-sm font-semibold text-white shadow-glow transition hover:brightness-110"
             >
               Apply to waitlist
             </a>
             <a
-              href={waitlistEndpoint}
-              target="_blank"
-              rel="noreferrer"
+              href="#waitlist-form"
               className="rounded-2xl border border-white/20 bg-white/5 px-6 py-3 text-center text-sm font-semibold text-zinc-100 transition hover:border-cyan-300/50 hover:bg-cyan-300/10"
             >
               Apply to waitlist

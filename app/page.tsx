@@ -7,6 +7,7 @@ import { ResultsSection } from '@/components/results-section';
 import { SafetySection } from '@/components/safety-section';
 import { SimulationPreviewSection } from '@/components/simulation-preview-section';
 import { SocialProofSection } from '@/components/social-proof-section';
+import { WaitlistFormSection } from '@/components/waitlist-form-section';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <SimulationPreviewSection />
       <FeaturesSection />
       <ResultsSection />
+      <WaitlistFormSection />
       <SafetySection />
       <FAQSection />
       <FinalCTASection />

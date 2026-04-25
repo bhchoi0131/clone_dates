@@ -1,6 +1,4 @@
 export function FinalCTASection() {
-  const waitlistEndpoint = 'https://formspree.io/f/xnjlrvae';
-
   return (
     <section className="section-shell pt-10">
       <div className="glass relative overflow-hidden px-6 py-16 text-center sm:px-10">
@@ -12,17 +10,13 @@ export function FinalCTASection() {
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <a
-              href={waitlistEndpoint}
-              target="_blank"
-              rel="noreferrer"
+              href="#waitlist-form"
               className="rounded-2xl bg-gradient-to-r from-neon-pink to-neon-violet px-6 py-3 text-center text-sm font-semibold text-white shadow-glow transition hover:brightness-110"
             >
               Apply to waitlist
             </a>
             <a
-              href={waitlistEndpoint}
-              target="_blank"
-              rel="noreferrer"
+              href="#waitlist-form"
               className="rounded-2xl border border-white/20 bg-white/5 px-6 py-3 text-center text-sm font-semibold text-zinc-100 transition hover:border-cyan-300/50 hover:bg-cyan-300/10"
             >
               Apply to waitlist
